@@ -14,7 +14,7 @@ pybank_csv = os.path.join('..', 'Resources', 'budget_data.csv')
 def print_analysis(bank_data):
 
     date = str(bank_data[0])
-    pft_ls = int(bank_data[1])
+    pft_lss = int(bank_data[1])
 
 
     
