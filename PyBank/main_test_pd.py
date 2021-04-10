@@ -28,3 +28,10 @@ bank_min = bank_df["Profit/Losses"].min()
 print(bank_min)
 
 # Creating f function statement for print out
+print(f'Financial Analysis',
+     "---------------------",
+     "Total Months: ", bank_df["Date"].count(),
+     "Total: $", bank_df["Profit/Losses"].sum(),
+     "Avgerage Change: ", bank_avg,
+     "Greatest Increase in Profits: ", bank_max,
+     "Greatest Decrease in Profits: ", bank_min)
