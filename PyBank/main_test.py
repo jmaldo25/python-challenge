@@ -19,7 +19,7 @@ def print_totals(bank_data):
     pft_ls = int(bank_data[1])
 
 # Defining the calculations
-    total_months = months - 1
+    total_months = months
 
     net = sum(pft_ls)
 
@@ -38,3 +38,5 @@ def print_totals(bank_data):
 with open(pybank_csv, "r") as file:
     reader = csv.reader(file)
     total_months_total = len(list(reader))
+    
+    
