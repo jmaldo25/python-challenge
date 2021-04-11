@@ -14,8 +14,9 @@ import csv
 pybank_csv = os.path.join('Resources', 'budget_data.csv')
 
 # Defining the function for 'bank_data'
-dates = []
-pft_ls = []
+def print_totals(bank_data):
+    months = str(bank_data[0])
+    pft_ls = int(bank_data[1])
 
 # Defining the calculations
     total_months = months
